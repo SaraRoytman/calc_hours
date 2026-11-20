@@ -15,6 +15,7 @@ def main(page: ft.Page):
     page.rtl = True
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.bgcolor = ft.Colors.BLACK12
 
     init_json()
     
